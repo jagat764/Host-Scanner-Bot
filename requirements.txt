@@ -1,0 +1,4 @@
+python-telegram-bot==20.3
+requests==2.31.0
+tqdm==4.67.0
+colorama==0.4.6
