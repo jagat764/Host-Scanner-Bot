@@ -4,7 +4,7 @@ import csv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 from telegram import Update, InputFile
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 from colorama import Fore, Style, init
 
 # Initialize Colorama for terminal styling
